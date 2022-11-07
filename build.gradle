@@ -68,7 +68,7 @@ dependencies {
     implementation 'org.opensearch.client:opensearch-rest-client:2.0.0'
     implementation 'org.opensearch.client:opensearch-java:2.0.0'
     implementation "io.netty:netty-all:4.1.73.Final"
-    implementation "org.apache.lucene:lucene-core:9.4.0-snapshot-ddf0d0a"
+    implementation "org.apache.lucene:lucene-core:9.4.1"
     testCompileOnly ("junit:junit:4.13.2") {
         exclude module : 'hamcrest'
         exclude module : 'hamcrest-core'
